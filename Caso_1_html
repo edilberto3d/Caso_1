@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASO_1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>FORMULARIO DE CONFERENCIA</h1>
+    
+    <figure>
+      <id class="logo">  <img src="img/fr.png" alt="ss">
+        <h3>REALIZA EL SIGUIENTE FORMULARIO:</h3>
+    </id>
+    </figure>
+    <br>
+   <id class="formular">
+        <form  method="post" action="https://formsubmit.co/edilbertoh369@gmail.com">
+      
+    <div>
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" placeholder="Escribe tu nombre" title="Escriba su nombre completo" id="nombre" required>
+    
+    
+    <label for="fechan">Fecha Nacimiento:</label>
+    <input type="date" name="fechan"  id="fechan" required>
+    </div>
+    <br>
+    <div>
+      <label for="edad">Edad:</label>
+        <input type="number" name="edad" placeholder="Escribe tu edad" id="edad" min="1" required>
+    <label for="telefono">Numero de telefono:</label>
+    <input type="tel" name="telefono" id="telefono" placeholder="telefono" required>
+   
+    </div>
+    <br>
+    <div>
+        <label for="correo">Correo:</label>
+        <input type="email" name="correo" placeholder="Escribe tu correo" id="correo" title="Inserte correctamente su correo" required>
+    
+    </div>
+    <br>
+    <div>
+<label for="curp">Curp:</label>
+<input type="text" name="curp" placeholder="Escribe tu curp" id="curp" required>
+</div>
+<br>
+<label form="ocupa" title="Por favor Seleccione una opcion">Ocupacion:</label>
+<select name="ocupa" id="ocupa" required>   
+    <option value="Progrmador">Programador</option>
+    <option value="Diseñador">Diseñador</option>
+    <option value="Analista">Analista</option>
+    <option value="Diseñador de datos">Diseñador datos</option>
+    <option value="ciberseguridad">ciberseguridad</option>
+</select>
+<div>
+<br>
+<label title="Por favor Seleccione una opcion" ><b>Seleccione tu talla de camiseta:</b></label>
+<br>
+<label>
+    <input type="radio" name="talla" value="S" required>
+    S
+  </label>
+  
+  <label>
+    <input type="radio" name="talla" value="M" required>
+    M
+  </label>
+  
+  <label>
+    <input type="radio" name="talla" value="L" required>
+    L
+  </label>
+  
+  <label>
+    <input type="radio" name="talla" value="XL" required>
+    XL
+  </label>
+</div>
+<br>
+<label for="Preferencia" title="Por favor Seleccione una opcion"><b>Preferencia dietectica:</b></label>
+<br>
+<label>
+<input type="radio" name="pref" id="Preferencia" required> 
+Vegetariano
+</label>
+<label>
+    <input type="radio" name="pref" id="Preferencia" required> 
+    Vegano
+    </label>
+    <label>
+        <input type="radio" name="pref" id="Preferencia" required> 
+        Sin gluten
+        </label>
+        <label>
+            <input type="radio" name="pref" id="Preferencia" required> 
+            Sin restricciones
+            </label>
+            <br>
+            <br>
+
+            
+<div>
+    
+    <label for="comentario"><b>Deja tu comentario:</b></label>
+    <br>
+    <textarea name="comentario" placeholder="Escribe tu comentario" rows="4" cols="50" id="comentario"></textarea>
+</div>
+<div class="boton">
+<input type="submit" value="Enviar">
+
+</div>
+</form>
+</body>
+</html>
